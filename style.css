@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ===========main section======= */
+.mainSection {
+  width: 100%;
+  height: 100vh;
+}
+/* ===========first section======= */
+.firstSection {
+  background-image: url(./sources/background/first\ secction.jpg);
+  height: 700px;
+  background-position: center;
+  border-bottom: rgb(34, 31, 31);
+}
+.blackDiv {
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.499);
+  /* opacity: 0.6; */
+}
+/* ===========nav ======= */
+nav {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+#logo {
+  width: 160px;
+  height: 40px;
+  margin: 30px 550px 30px 30px;
+}
+#signup,
+#login {
+  background-color: red;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin: 30px 10px;
+  float: right;
+  font-size: 20px;
+}
+/* ===========first section body======= */
+.firstSectionBody {
+  width: 80%;
+  margin-top: 100px;
+  color: white;
+}
+.firstSectionBody h1 {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-left: 70px;
+}
+.firstSectionBody h4 {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.firstSectionBody p {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+.emailInputDiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.firstSectionBody input {
+  width: 400px;
+  background-color: transparent;
+  border: 2px solid green;
+  height: 50px;
+  margin-left: 150px;
+  background-color: rgba(0, 0, 0, 0.474);
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+#getStarted {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+}
+.greyDiv {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(33, 32, 32);
+}
+/* ===========second section======= */
+.secondSection,
+.thirdSection {
+  background-color: black;
+  height: 450px;
+  display: flex;
+  color: white;
+}
+.secondSection .left {
+  padding-top: 100px;
+  margin-left: 80px;
+  width: 45%;
+}
+.secondSection .left h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.secondSection .left p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 2;
+  font-weight: bolder;
+}
+.secondSection .right {
+  width: 50%;
+}
+#ledImg {
+  width: 500px;
+  /* position: absolute; */
+  z-index: 100;
+}
+video {
+  width: 362px;
+  height: 202px;
+  background-color: antiquewhite;
+  position: absolute;
+  right: 95px;
+  top: 789px;
+  border: none;
+}
+/* =================third section======= */
+
+.thirdSection img {
+  width: 500px;
+  height: 400px;
+}
+.downloading {
+  width: 300px;
+  border: 2px solid grey;
+  background-color: black;
+  height: 100px;
+  position: relative;
+  bottom: 130px;
+  border-radius: 10px;
+  left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.strangers img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+.textStrangers {
+  margin-top: 20px;
+}
+.textStrangers p {
+  color: rgb(70, 70, 137);
+}
+.downloadIcon {
+  margin-top: 60px;
+}
+.thirdSection .right {
+  padding-top: 100px;
+  margin-left: 50px;
+  width: 40%;
+}
+.thirdSection .right h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.thirdSection .right p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 2;
+}
